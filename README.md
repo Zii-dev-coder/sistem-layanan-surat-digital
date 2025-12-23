@@ -1,21 +1,27 @@
-# Digital Letter Request System
+# Sistem Permohonan Surat Digital
 
-A web-based digital letter request and management system designed for public service institutions such as village or municipal offices.
+Sistem permohonan surat berbasis web yang dirancang untuk membantu layanan administrasi seperti kelurahan atau desa dalam mengelola pengajuan surat secara digital.
 
-## 🚀 Features
-- User authentication (Admin & Citizen)
-- Online letter request submission
-- Document upload (DOCX)
-- Admin approval and status management
-- Automatic PDF generation using LibreOffice
-- Downloadable official documents
-- Role-based access control
+## 🚀 Fitur
+- Login dan autentikasi pengguna (User & Admin)
+- Pengajuan permohonan surat secara online
+- Unggah dokumen persyaratan (DOCX)
+- Verifikasi dan manajemen permohonan oleh admin
+- Generate dokumen PDF otomatis menggunakan LibreOffice
+- Unduh dokumen resmi oleh pengguna
+- Hak akses berbasis peran (role-based access)
 
-## 🛠️ Tech Stack
+## 🛠️ Teknologi
 - PHP (Native / MVC)
 - MySQL
 - HTML, CSS, JavaScript
-- LibreOffice CLI (PDF generation)
+- LibreOffice CLI (generate PDF)
 - Apache (XAMPP)
 
-## 📂 Project Structure
+## 📂 Struktur Folder
+/controllers
+/models
+/views
+/uploads
+/index.php
+/config.php
