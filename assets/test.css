@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.voting-rules-section {
+    padding: 100px 20px;
+    background: #f8f9fc;
+    text-align: center;
+}
+
+.voting-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.voting-title {
+    font-size: 42px;
+    font-weight: 800;
+    color: #4361ee;
+    margin-bottom: 12px;
+}
+
+.voting-desc {
+    font-size: 17px;
+    color: #64748b;
+    margin-bottom: 60px;
+}
+
+.rules-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.rule-card {
+    background: white;
+    padding: 40px 24px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.rule-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+.rule-icon {
+    width: 86px;
+    height: 86px;
+    margin: 0 auto 28px;
+    background: linear-gradient(135deg, #4361ee, #3f37c9);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 25px rgba(67,97,238,0.3);
+}
+
+.rule-icon .material-symbols-outlined {
+    font-size: 48px !important;
+    color: white;
+}
+
+.rule-card p {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.rule-card p strong {
+    color: #1e293b;
+    font-weight: 700;
+}
+
+.candidates-section {
+    padding: 80px 20px;
+    background: #f8f9fc;
+    text-align: center;
+}
+
+.candidates-title {
+    font-size: 42px;
+    font-weight: 800;
+    color: #4361ee;
+    margin-bottom: 12px;
+}
+
+.candidates-desc {
+    font-size: 17px;
+    color: #64748b;
+}
+
+
+/* Responsif */
+@media (max-width: 768px) {
+    .voting-title, .candidates-title { font-size: 34px; }
+    .voting-desc, .candidates-desc { font-size: 16px; }
+    .rule-card { padding: 32px 20px; }
+    .rule-icon { width: 76px; height: 76px; }
+    .rule-icon .material-symbols-outlined { font-size: 42px !important; }
+}
